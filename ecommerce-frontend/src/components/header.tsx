@@ -20,7 +20,7 @@ const Header = (
     // { user }: PropsType
 ) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const user = {_id:"dsds",role:"admin"};
+  const user = {_id:"",role:""};
 
 //   const logoutHandler = async () => {
 //     try {
